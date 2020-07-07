@@ -8,7 +8,7 @@ REQUIRED = [    "numpy",    "pandas",  "sklearn", "matplotlib", "category_encode
 with open("README.md", "r") as fh:    LONG_DESCRIPTION = fh.read()
 
 setuptools.setup( name="lambdata-witterone",
-        version="1.0",
+        version="1.1",
         author='witterone',
         description="A collection of Data Science helper functions",
         long_description=LONG_DESCRIPTION,
@@ -17,6 +17,6 @@ setuptools.setup( name="lambdata-witterone",
         packages=setuptools.find_packages(),
         python_requires=">=3.6",
         install_requires=REQUIRED,
-        classifiers=[ "Programming Language :: Python :: 3.8.2",
+        classifiers=[ "Programming Language :: Python :: 3",
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",    ],)
