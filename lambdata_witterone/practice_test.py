@@ -10,8 +10,8 @@
 import unittest
 
 # Local Imports
-from sprint_review import Puppy, Leech
-from exercise import SimpleOperations, Complex
+from puppy import Puppy, Leech
+from arithmetic import SimpleOperations, Complex
 
 
 case1 = SimpleOperations(3, 2)
@@ -30,3 +30,4 @@ class PuppyTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
